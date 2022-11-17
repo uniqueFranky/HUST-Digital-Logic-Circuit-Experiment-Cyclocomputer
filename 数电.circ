@@ -4,7 +4,7 @@
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
-      <a name="facing" val="north"/>
+      <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
       <a name="appear" val="left"/>
@@ -5976,6 +5976,89 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
     <wire from="(380,60)" to="(420,60)"/>
     <wire from="(10,130)" to="(300,130)"/>
     <wire from="(10,10)" to="(300,10)"/>
+    <wire from="(130,220)" to="(130,310)"/>
+    <wire from="(80,310)" to="(130,310)"/>
+    <wire from="(130,220)" to="(210,220)"/>
+    <wire from="(130,310)" to="(210,310)"/>
+    <wire from="(130,410)" to="(210,410)"/>
+    <wire from="(130,310)" to="(130,410)"/>
+    <wire from="(130,510)" to="(210,510)"/>
+    <wire from="(130,410)" to="(130,510)"/>
+    <wire from="(80,430)" to="(110,430)"/>
+    <wire from="(110,240)" to="(190,240)"/>
+    <wire from="(110,330)" to="(190,330)"/>
+    <wire from="(110,330)" to="(110,430)"/>
+    <wire from="(110,240)" to="(110,330)"/>
+    <wire from="(110,430)" to="(190,430)"/>
+    <wire from="(190,430)" to="(200,430)"/>
+    <wire from="(110,530)" to="(190,530)"/>
+    <wire from="(110,430)" to="(110,530)"/>
+    <wire from="(310,340)" to="(330,340)"/>
+    <wire from="(280,330)" to="(280,350)"/>
+    <wire from="(250,330)" to="(280,330)"/>
+    <wire from="(280,350)" to="(330,350)"/>
+    <wire from="(250,430)" to="(310,430)"/>
+    <wire from="(310,360)" to="(310,430)"/>
+    <wire from="(310,360)" to="(330,360)"/>
+    <wire from="(290,370)" to="(290,530)"/>
+    <wire from="(250,530)" to="(290,530)"/>
+    <wire from="(290,370)" to="(330,370)"/>
+    <wire from="(250,240)" to="(310,240)"/>
+    <wire from="(310,240)" to="(310,340)"/>
+    <wire from="(440,200)" to="(440,340)"/>
+    <wire from="(400,340)" to="(440,340)"/>
+    <wire from="(160,200)" to="(160,280)"/>
+    <wire from="(160,200)" to="(440,200)"/>
+    <wire from="(160,280)" to="(190,280)"/>
+    <wire from="(190,370)" to="(200,370)"/>
+    <wire from="(400,360)" to="(430,360)"/>
+    <wire from="(190,500)" to="(430,500)"/>
+    <wire from="(430,360)" to="(430,500)"/>
+    <wire from="(190,470)" to="(190,500)"/>
+    <wire from="(450,350)" to="(450,400)"/>
+    <wire from="(400,350)" to="(450,350)"/>
+    <wire from="(190,370)" to="(190,400)"/>
+    <wire from="(190,400)" to="(450,400)"/>
+    <wire from="(400,370)" to="(420,370)"/>
+    <wire from="(190,620)" to="(420,620)"/>
+    <wire from="(420,370)" to="(420,620)"/>
+    <wire from="(190,570)" to="(190,620)"/>
+    <wire from="(220,590)" to="(220,600)"/>
+    <wire from="(150,490)" to="(220,490)"/>
+    <wire from="(150,490)" to="(150,600)"/>
+    <wire from="(90,600)" to="(150,600)"/>
+    <wire from="(150,600)" to="(220,600)"/>
+    <wire from="(150,390)" to="(150,490)"/>
+    <wire from="(150,390)" to="(220,390)"/>
+    <wire from="(150,300)" to="(150,390)"/>
+    <wire from="(150,300)" to="(220,300)"/>
+    <wire from="(310,240)" to="(510,240)"/>
+    <wire from="(510,480)" to="(540,480)"/>
+    <wire from="(280,290)" to="(490,290)"/>
+    <wire from="(280,290)" to="(280,330)"/>
+    <wire from="(490,490)" to="(540,490)"/>
+    <wire from="(470,430)" to="(470,500)"/>
+    <wire from="(310,430)" to="(470,430)"/>
+    <wire from="(470,500)" to="(540,500)"/>
+    <wire from="(520,510)" to="(520,530)"/>
+    <wire from="(520,510)" to="(540,510)"/>
+    <wire from="(570,490)" to="(640,490)"/>
+    <wire from="(640,420)" to="(640,490)"/>
+    <wire from="(640,420)" to="(660,420)"/>
+    <wire from="(510,270)" to="(510,480)"/>
+    <wire from="(510,240)" to="(510,270)"/>
+    <wire from="(680,270)" to="(680,290)"/>
+    <wire from="(510,270)" to="(680,270)"/>
+    <wire from="(680,290)" to="(690,290)"/>
+    <wire from="(490,300)" to="(690,300)"/>
+    <wire from="(490,300)" to="(490,490)"/>
+    <wire from="(490,290)" to="(490,300)"/>
+    <wire from="(470,310)" to="(690,310)"/>
+    <wire from="(470,310)" to="(470,430)"/>
+    <wire from="(480,320)" to="(480,530)"/>
+    <wire from="(480,320)" to="(690,320)"/>
+    <wire from="(290,530)" to="(480,530)"/>
+    <wire from="(480,530)" to="(520,530)"/>
     <comp lib="6" loc="(303,191)" name="Text">
       <a name="text" val="请勿增删改引脚，请在下方利用上方输入输出引脚的隧道标签信号构建电路，ctrl+d复制选择组件"/>
       <a name="font" val="Dialog plain 12"/>
@@ -5994,12 +6077,6 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(120,280)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="1"/>
-      <a name="label" val="En"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
     <comp lib="6" loc="(553,30)" name="Text">
       <a name="text" val="输出引脚区"/>
       <a name="font" val="SansSerif bold 12"/>
@@ -6007,27 +6084,21 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
     </comp>
-    <comp lib="0" loc="(570,390)" name="Tunnel">
-      <a name="facing" val="west"/>
-      <a name="width" val="4"/>
-      <a name="label" val="Q"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="4" loc="(410,420)" name="D Flip-Flop">
-      <a name="trigger" val="rising"/>
-      <a name="Pre/Clr Positions" val="LEGACY"/>
-      <a name="NegatePresetClear" val="false"/>
-      <a name="enable" val="true"/>
-      <a name="NewFFLayout" val="false"/>
-      <a name="label" val=""/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-    </comp>
     <comp lib="0" loc="(420,50)" name="Probe">
       <a name="facing" val="south"/>
       <a name="radix" val="16"/>
       <a name="label" val=""/>
       <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="4" loc="(250,240)" name="D Flip-Flop">
+      <a name="trigger" val="rising"/>
+      <a name="Pre/Clr Positions" val="ABOVE_BELOW"/>
+      <a name="NegatePresetClear" val="false"/>
+      <a name="enable" val="true"/>
+      <a name="NewFFLayout" val="true"/>
+      <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
@@ -6038,23 +6109,7 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
     </comp>
-    <comp lib="0" loc="(120,360)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="width" val="1"/>
-      <a name="label" val="Rst"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-    </comp>
-    <comp lib="4" loc="(410,360)" name="D Flip-Flop">
-      <a name="trigger" val="rising"/>
-      <a name="Pre/Clr Positions" val="LEGACY"/>
-      <a name="NegatePresetClear" val="false"/>
-      <a name="enable" val="true"/>
-      <a name="NewFFLayout" val="false"/>
-      <a name="label" val=""/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-    </comp>
-    <comp lib="0" loc="(120,320)" name="Tunnel">
+    <comp lib="0" loc="(80,430)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="1"/>
       <a name="label" val="CLK"/>
@@ -6083,6 +6138,16 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="label" val="Cout"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
+    <comp lib="4" loc="(250,430)" name="D Flip-Flop">
+      <a name="trigger" val="rising"/>
+      <a name="Pre/Clr Positions" val="ABOVE_BELOW"/>
+      <a name="NegatePresetClear" val="false"/>
+      <a name="enable" val="true"/>
+      <a name="NewFFLayout" val="true"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
     <comp lib="0" loc="(480,100)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -6105,10 +6170,43 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
+    <comp lib="0" loc="(710,280)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="appear" val="left"/>
+      <a name="bit0" val="3"/>
+      <a name="bit1" val="2"/>
+      <a name="bit2" val="1"/>
+      <a name="bit3" val="0"/>
+    </comp>
+    <comp lib="4" loc="(250,330)" name="D Flip-Flop">
+      <a name="trigger" val="rising"/>
+      <a name="Pre/Clr Positions" val="ABOVE_BELOW"/>
+      <a name="NegatePresetClear" val="false"/>
+      <a name="enable" val="true"/>
+      <a name="NewFFLayout" val="true"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
     <comp lib="0" loc="(380,60)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="4"/>
       <a name="label" val="Q"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp loc="(400,360)" name="BCD计数器状态转换（自动生成）">
+      <a name="facing" val="east"/>
+      <a name="label" val=""/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(90,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="label" val="Rst"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
     <comp lib="0" loc="(240,40)" name="Tunnel">
@@ -6117,24 +6215,29 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="label" val="CLK"/>
       <a name="labelfont" val="Dialog plain 12"/>
     </comp>
-    <comp loc="(270,390)" name="BCD计数器状态转换（自动生成）">
-      <a name="facing" val="east"/>
-      <a name="label" val=""/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-    </comp>
-    <comp lib="4" loc="(410,300)" name="D Flip-Flop">
+    <comp lib="4" loc="(250,530)" name="D Flip-Flop">
       <a name="trigger" val="rising"/>
-      <a name="Pre/Clr Positions" val="LEGACY"/>
+      <a name="Pre/Clr Positions" val="ABOVE_BELOW"/>
       <a name="NegatePresetClear" val="false"/>
       <a name="enable" val="true"/>
-      <a name="NewFFLayout" val="false"/>
+      <a name="NewFFLayout" val="true"/>
       <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp loc="(240,460)" name="BCD计数器输出函数(自动生成)">
+    <comp lib="0" loc="(710,280)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="4"/>
+      <a name="label" val="Q"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp lib="0" loc="(660,420)" name="Tunnel">
+      <a name="facing" val="west"/>
+      <a name="width" val="1"/>
+      <a name="label" val="Cout"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+    </comp>
+    <comp loc="(570,490)" name="BCD计数器输出函数(自动生成)">
       <a name="facing" val="east"/>
       <a name="label" val=""/>
       <a name="labelloc" val="north"/>
@@ -6159,15 +6262,11 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="halign" val="center"/>
       <a name="valign" val="base"/>
     </comp>
-    <comp lib="4" loc="(410,480)" name="D Flip-Flop">
-      <a name="trigger" val="rising"/>
-      <a name="Pre/Clr Positions" val="LEGACY"/>
-      <a name="NegatePresetClear" val="false"/>
-      <a name="enable" val="true"/>
-      <a name="NewFFLayout" val="false"/>
-      <a name="label" val=""/>
+    <comp lib="0" loc="(80,310)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="label" val="En"/>
       <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
     </comp>
     <comp lib="0" loc="(240,100)" name="Tunnel">
       <a name="facing" val="west"/>
