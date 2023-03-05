@@ -1730,10 +1730,10 @@
       <text font-family="Dialog" font-size="9" text-anchor="middle" x="56" y="69">Sel</text>
       <text font-family="Dialog" font-size="9" text-anchor="middle" x="16" y="49">X1</text>
       <text font-family="Dialog" font-size="9" text-anchor="middle" x="16" y="29">X0</text>
-      <circ-port height="8" pin="80,40" width="8" x="6" y="26"/>
-      <circ-port height="8" pin="270,60" width="8" x="6" y="36"/>
-      <circ-port height="10" pin="560,60" width="10" x="55" y="25"/>
-      <circ-port height="8" pin="80,80" width="8" x="6" y="46"/>
+      <circ-port height="8" pin="80,40" width="8" x="26" y="26"/>
+      <circ-port height="8" pin="270,60" width="8" x="26" y="46"/>
+      <circ-port height="10" pin="560,60" width="10" x="55" y="35"/>
+      <circ-port height="8" pin="80,80" width="8" x="46" y="46"/>
       <circ-anchor facing="east" height="6" width="6" x="57" y="37"/>
     </appear>
     <wire from="(180,350)" to="(240,350)"/>
@@ -2008,20 +2008,14 @@
     <wire from="(270,330)" to="(440,330)"/>
     <wire from="(300,410)" to="(440,410)"/>
     <wire from="(440,340)" to="(440,410)"/>
-    <wire from="(220,320)" to="(250,320)"/>
-    <wire from="(190,400)" to="(250,400)"/>
-    <wire from="(100,280)" to="(250,280)"/>
-    <wire from="(170,340)" to="(220,340)"/>
-    <wire from="(250,260)" to="(270,260)"/>
-    <wire from="(250,400)" to="(270,400)"/>
-    <wire from="(250,280)" to="(270,280)"/>
-    <wire from="(220,340)" to="(240,340)"/>
-    <wire from="(250,420)" to="(270,420)"/>
-    <wire from="(210,180)" to="(230,180)"/>
-    <wire from="(230,180)" to="(250,180)"/>
-    <wire from="(240,260)" to="(250,260)"/>
-    <wire from="(210,320)" to="(220,320)"/>
-    <wire from="(150,420)" to="(250,420)"/>
+    <wire from="(240,260)" to="(270,260)"/>
+    <wire from="(190,400)" to="(270,400)"/>
+    <wire from="(210,180)" to="(250,180)"/>
+    <wire from="(210,320)" to="(240,320)"/>
+    <wire from="(240,320)" to="(250,320)"/>
+    <wire from="(100,280)" to="(270,280)"/>
+    <wire from="(170,340)" to="(240,340)"/>
+    <wire from="(150,420)" to="(270,420)"/>
     <comp lib="0" loc="(460,300)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="4"/>
@@ -12724,10 +12718,8 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
     <wire from="(230,230)" to="(230,240)"/>
     <wire from="(250,230)" to="(250,260)"/>
     <wire from="(260,220)" to="(300,220)"/>
-    <wire from="(200,210)" to="(210,210)"/>
-    <wire from="(170,230)" to="(210,230)"/>
-    <wire from="(210,210)" to="(230,210)"/>
-    <wire from="(210,230)" to="(230,230)"/>
+    <wire from="(200,210)" to="(230,210)"/>
+    <wire from="(170,230)" to="(230,230)"/>
     <comp loc="(260,220)" name="2路选择器（1位）">
       <a name="facing" val="east"/>
       <a name="label" val=""/>
